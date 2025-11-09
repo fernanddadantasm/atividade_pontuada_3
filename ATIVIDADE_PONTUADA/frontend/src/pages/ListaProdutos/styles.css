@@ -1,0 +1,70 @@
+/* src/pages/ListaProdutos/styles.css */
+
+
+.lista-container {
+  max-width: 100%;
+}
+
+.lista-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.lista-header h1 {
+  margin: 0;
+}
+
+.btn-novo {
+  background-color: #28a745;
+  color: white;
+  padding: 0.75rem 1.25rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-novo:hover {
+  background-color: #218838;
+}
+
+.tabela-dados {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.tabela-dados th,
+.tabela-dados td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+  vertical-align: top;
+  word-break: break-word;
+}
+
+.tabela-dados th {
+  background-color: #f8f8f8;
+  font-weight: bold;
+  color: #333;
+}
+
+.tabela-dados tbody tr:nth-child(even) {
+  background-color: #fdfdfd;
+}
+
+.tabela-dados tbody tr:hover {
+  background-color: #f0f0f0;
+}
+
+.lista-vazia {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #777;
+  margin-top: 3rem;
+}

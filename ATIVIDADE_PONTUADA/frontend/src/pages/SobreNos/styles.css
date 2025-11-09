@@ -1,0 +1,25 @@
+/* frontend\src\pages\SobreNós\styles.css */
+
+
+
+.sobre-nos-container h1 {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+  color: #333;
+}
+
+.sobre-nos-container p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.sobre-nos-container ul {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  padding-left: 2rem;
+}
+
+.sobre-nos-container li {
+  margin-bottom: 0.5rem;
+}
