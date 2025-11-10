@@ -16,7 +16,6 @@ app.get('/', (req, res) => {
   res.send('API da ATIVIDADE_PONTUADA está rodando! 🚀');
 });
 
-// --- NOVAS ROTAS (ENDPOINTS) ---
 
 // 1. Cadastrar Cliente (POST)
 app.post('/clientes', async (req, res) => {
@@ -58,7 +57,7 @@ app.get('/produtos', async (req, res) => {
   }
 });
 
-// --- FIM DAS NOVAS ROTAS ---
+// FIM DAS NOVAS ROTAS 
 
 app.listen(port, () => {
   console.log(`Servidor escutando na porta ${port}`);
@@ -70,4 +69,5 @@ app.listen(port, () => {
     .catch((error) => {
       console.error('Erro ao sincronizar tabelas: 👎', error);
     });
+
 });
