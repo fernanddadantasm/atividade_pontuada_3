@@ -1,10 +1,10 @@
 // backend/models/Cliente.js
 
 const { DataTypes } = require('sequelize');
-const sequelize = require('../config/database'); // Importa a conexão
+const sequelize = require('../config/database'); 
 
 const Cliente = sequelize.define('Cliente', {
-  // O 'id' é criado automaticamente
+
   nome: {
     type: DataTypes.STRING,
     allowNull: false
@@ -22,9 +22,9 @@ const Cliente = sequelize.define('Cliente', {
   endereco: {
     type: DataTypes.STRING
   }
-  // timestamps (createdAt e updatedAt) são automáticos
 }, {
   tableName: 'clientes' 
 });
+
 
 module.exports = Cliente;
